@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import React, { useState, useEffect } from "react";
 import photo from "../assets/Udemy.png";
 import { FaWhatsapp } from "react-icons/fa";
 import moment from "moment";
