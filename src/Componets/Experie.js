@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import udemy from "../assets/Udemy.png";
+
 const Job = styled.div`
   display: flex;
   justify-content: center;
