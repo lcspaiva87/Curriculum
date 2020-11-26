@@ -27,7 +27,7 @@ const Skillcard = styled.div`
     display: flex;
     justify-content: center;
     margin: 11px;
-    width: 347px;
+    width: 338px;
   }
 `;
 const SkillTitle = styled.h1`
@@ -71,7 +71,7 @@ const Social = styled.div`
   /* height: 480px; */
   padding: 10px;
   @media (max-width: 720px) {
-    width: 324px;
+    width: 316px;
     align-items: center;
     margin-top: 10px;
     margin-right: 3px;

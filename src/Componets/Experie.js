@@ -24,7 +24,7 @@ const JobExperince = styled.div`
     display: flex;
     justify-content: center;
     margin: 11px;
-    width: 348px;
+    width: 338px;
   }
 `;
 const JobTitle = styled.h1`
@@ -74,7 +74,7 @@ const Education = styled.div`
   /* height: 480px; */
   padding: 10px;
   @media (max-width: 720px) {
-    width: 326px;
+    width: 316px;
     align-items: center;
     margin-top: 10px;
     margin-right: 3px;
@@ -103,9 +103,7 @@ const LineVertical = styled.div`
   height: ${(props) => props.height};
   border-left: 6px solid #7fe3ef; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
 `;
-const completeEducation = styled.div`
-  margin: 0;
-`;
+
 const Complete = styled.h1`
   font-size: 20px;
   color: #7dc8d0;
