@@ -9,7 +9,10 @@ const Card = styled.div`
   justify-content: center;
 
   @media (max-width: 720px) {
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 `;

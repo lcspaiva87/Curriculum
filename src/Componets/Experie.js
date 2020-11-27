@@ -5,7 +5,10 @@ const Job = styled.div`
   justify-content: center;
 
   @media (max-width: 720px) {
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 `;
@@ -21,10 +24,8 @@ const JobExperince = styled.div`
   flex-direction: column;
   margin-right: -6px;
   @media (max-width: 720px) {
-    display: flex;
-    justify-content: center;
     margin: 11px;
-    width: 338px;
+    width: 343px;
   }
 `;
 const JobTitle = styled.h1`
@@ -151,7 +152,7 @@ const Experie = () => {
       <Education>
         <EducationTitle>Education</EducationTitle>
         <EducationContainer>
-          <LineVertical width="40px">
+          <LineVertical >
             <EducationSchool>
               {" "}
               Técnico em Informática - (Concluído) –IFCE (Maracanaú/CE) - 2018.
