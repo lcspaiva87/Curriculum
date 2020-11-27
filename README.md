@@ -72,4 +72,4 @@ This project is under the MIT license. See the  [license](LICENSE) for more info
 
 ---
 
-Made with 💟 by José Guilherme Paro Monteiro Tomaine 👋 [Talk to me!](https://www.linkedin.com/in/lucas-antonio-paiva/)
+Made with 💟 by Lucas Antonio Paiva da Silva 👋 [Talk to me!](https://www.linkedin.com/in/lucas-antonio-paiva/)
