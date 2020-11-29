@@ -53,13 +53,13 @@ const JobDate = styled.h6`
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: #b7b7b7;
+  color: #000000;
 `;
 const JobService = styled.h6`
   font-size: 12px;
   margin-top: 0;
   margin-left: 20px;
-  color: #b7b7b7;
+  color: #000000;
 `;
 
 const Education = styled.div`

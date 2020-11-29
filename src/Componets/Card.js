@@ -71,8 +71,9 @@ const About = styled.div`
 const Title = styled.h1`
   font-size: 25px;
   display: flex;
-  margin-top: -47px;
+ 
   margin-bottom: 1px;
+  font-family: 'Open Sans', sans-serif;
   @media (max-width: 720px) {
     font-size: 15px;
     text-align: center;
@@ -85,6 +86,7 @@ const SubTitle = styled.h2`
   color: #64cdff;
   display: flex;
   margin: 0;
+  font-family: cursive;
   @media (max-width: 720px) {
     font-size: 15px;
     margin: 0;
