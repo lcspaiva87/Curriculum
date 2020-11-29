@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import photo from "../assets/Udemy.png";
+import photo from "../assets/phoo.png";
 import { FaWhatsapp } from "react-icons/fa";
 import moment from "moment";
 const Conainer = styled.div`
@@ -34,15 +34,15 @@ const PhotoCard = styled.div`
   }
 `;
 const Photo = styled.img.attrs({ src: photo })`
-  height: 268px;
+  height: 289px;
   border-radius: 10px;
-  margin-left: 20px;
-  margin-top: -74px;
+  margin-left: 49px;
+  margin-top: -94px;
   @media (max-width: 720px) {
     height: 268px;
     border-radius: 10px;
-    margin-top: -89px;
-    margin-left: 9px;
+    margin-top: -97px;
+    margin-left: 46px;
   }
 `;
 
