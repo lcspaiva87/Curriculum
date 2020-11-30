@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-  <img src="./src/assets/" alt="Imagem do Currículo">
+  <img src="./src/assets/redme.png" alt="Imagem do Currículo">
 </div>
 
 <br/>
