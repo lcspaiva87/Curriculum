@@ -12,7 +12,7 @@
   <img alt="GitHub" src="">
   <img alt="GitHub last commit" src="">
   <img alt="GitHub repo size" src="">
-  <a href=""><img src=""/></a>
+  <a href=""><img src="./src/assets/redme.png"/></a>
 </div>
 
 <br>
