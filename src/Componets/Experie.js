@@ -78,8 +78,7 @@ const Education = styled.div`
     width: 316px;
     align-items: center;
     margin-top: 10px;
-    margin-right: 3px;
-    margin-left: 13px;
+  
   }
 `;
 const EducationTitle = styled.h1`
@@ -126,7 +125,7 @@ const Experie = () => {
         <JobTitle>Experience</JobTitle>
         <JobContainer>
           <JobName>Empresa:Cabral Empreendimentos</JobName>
-          <JobDate>Data:05/2020 a 11/2020</JobDate>
+          <JobDate>Data: 05/2020 a 11/2020</JobDate>
           <JobService>Serviços Prestados: Estagiario de WebDesgner</JobService>
         </JobContainer>
 
@@ -138,13 +137,13 @@ const Experie = () => {
 
         <JobContainer>
           <JobName>Empresa:Copral-Comercio e Navegação</JobName>
-          <JobDate>Data:14/2019 a 03/2020</JobDate>
+          <JobDate>Data: 14/2019 a 03/2020</JobDate>
           <JobService>Serviços Prestados: Aprendiz administrativo</JobService>
         </JobContainer>
 
         <JobContainer>
           <JobName>Empresa:Auto Peças Padre Cicero</JobName>
-          <JobDate>Data:03/2020 a 05/2020</JobDate>
+          <JobDate>Data: 03/2020 a 05/2020</JobDate>
           <JobService>Serviços Prestados: Aprendiz administrativo</JobService>
         </JobContainer>
       </JobExperince>

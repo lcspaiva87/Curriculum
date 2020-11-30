@@ -86,7 +86,7 @@ const SubTitle = styled.h2`
   color: #64cdff;
   display: flex;
   margin: 5px;
-  font-family: cursive;
+ 
   @media (max-width: 720px) {
     font-size: 15px;
     margin: 0;
