@@ -12,7 +12,7 @@
   <img alt="GitHub" src="https://camo.githubusercontent.com/cda5505446c30477ad17b5fc4f2d9e81d4513676eaf62ff911b988cd4c666c23/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f7a65686775696c6865726d652f706572736f6e616c2d637572726963756c756d">
   <img alt="GitHub last commit" src="https://camo.githubusercontent.com/18576c41864855cea2ce7d3e6335b2ad3e202eabaf17b12058c958a5cccd94e0/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f7a65686775696c6865726d652f706572736f6e616c2d637572726963756c756d">
   <img alt="GitHub repo size" src="https://camo.githubusercontent.com/d1124642420a28670de011c300c7b4c2b15bed7fd64041c24ffc1fbb3c0c8abd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f7265706f2d73697a652f7a65686775696c6865726d652f706572736f6e616c2d637572726963756c756d">
-  <a href="https://www.codacy.com/manual/zehguilherme/personal-curriculum?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zehguilherme/personal-curriculum&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/gh/lcspaiva87/Curriculum/dashboard"/></a>
+  <a href="https://app.codacy.com/gh/lcspaiva87/Curriculum/dashboard"><img src="https://app.codacy.com/gh/lcspaiva87/Curriculum/dashboard"/></a>
 </div>
 
 <br>
