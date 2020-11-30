@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-  <img src="./frontend/assets/../src/assets/curriculum.png" alt="Imagem do Currículo">
+  <img src="./src/assets/" alt="Imagem do Currículo">
 </div>
 
 <br/>
@@ -12,7 +12,7 @@
   <img alt="GitHub" src="">
   <img alt="GitHub last commit" src="">
   <img alt="GitHub repo size" src="">
-  <a href=""><img src="./src/assets/redme.png"/></a>
+  <a href=""><img src=""/></a>
 </div>
 
 <br>
