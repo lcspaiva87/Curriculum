@@ -61,6 +61,7 @@ const SKillCaixa = styled.div`
   border-radius: 2px;
 `;
 const SkillAline = styled.div``;
+
 const Social = styled.div`
   background-color: #ffffff;
   border-radius: 10px;
@@ -77,8 +78,7 @@ const Social = styled.div`
     width: 316px;
     align-items: center;
     margin-top: 10px;
-    margin-right: 3px;
-    margin-left: 13px;
+   
   }
 `;
 const SocialTitle = styled.h1`
@@ -96,7 +96,7 @@ const SocialName = styled.a`
 
 const SocialLine = styled.div`
   display: flex;
-  margin-left: 17px;
+ 
   position: relative;
   justify-content: center;
   padding: 11px;
