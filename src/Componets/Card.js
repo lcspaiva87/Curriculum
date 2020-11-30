@@ -85,7 +85,7 @@ const SubTitle = styled.h2`
   font-size: 25px;
   color: #64cdff;
   display: flex;
-  margin: 0;
+  margin: 5px;
   font-family: cursive;
   @media (max-width: 720px) {
     font-size: 15px;
@@ -112,7 +112,7 @@ const DateCard = styled.div`
   text-align: center;
 `;
 const Date = styled.p`
-  font-size: 1.7rem;
+  font-size: 15px;
   color: #000;
   margin: 0;
 `;
@@ -120,7 +120,7 @@ const Phonecard = styled.div`
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 0;
+  margin: 5px;
 `;
 const Phone = styled.a`
   color: rgb(255, 255, 255);
