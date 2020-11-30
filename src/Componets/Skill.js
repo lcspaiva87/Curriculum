@@ -31,6 +31,7 @@ const Skillcard = styled.div`
     justify-content: center;
     margin: 11px;
     width: 338px;
+    display: block;
   }
 `;
 const SkillTitle = styled.h1`
@@ -74,11 +75,14 @@ const Social = styled.div`
   margin-top: 15px;
   /* height: 480px; */
   padding: 10px;
+  display: flex;
   @media (max-width: 720px) {
     width: 316px;
     align-items: center;
     margin-top: 10px;
-   
+    margin-bottom: 0px;
+    display: block;
+    padding: 10px;
   }
 `;
 const SocialTitle = styled.h1`
@@ -96,7 +100,7 @@ const SocialName = styled.a`
 
 const SocialLine = styled.div`
   display: flex;
- 
+
   position: relative;
   justify-content: center;
   padding: 11px;
@@ -104,21 +108,22 @@ const SocialLine = styled.div`
 const SocialGit = styled.img.attrs({ src: GitHub })`
   width: 54px;
 `;
-const SocialLikedin = styled.img.attrs({ src:Linke  })`
+const SocialLikedin = styled.img.attrs({ src: Linke })`
   width: 54px;
 `;
-const SocialWhatsapp = styled.img.attrs({ src:Whatsapp  })`
+const SocialWhatsapp = styled.img.attrs({ src: Whatsapp })`
   width: 54px;
 `;
-const SocialCV = styled.img.attrs({ src:Cv  })`
+const SocialCV = styled.img.attrs({ src: Cv })`
   width: 54px;
 `;
 const SocialNames = styled.span`
   margin-top: 59px;
- 
+
   font-size: 15px;
   color: #c7c3c3;
   position: absolute;
+  
 `;
 const Skill = () => {
   return (
@@ -170,22 +175,31 @@ const Skill = () => {
               <SocialNames>GitHub</SocialNames>
               <SocialGit />
             </SocialName>
-            <SocialName href="https://www.linkedin.com/in/lucas-antonio-11a196114/" target="_blank">
+            <SocialName
+              href="https://www.linkedin.com/in/lucas-antonio-11a196114/"
+              target="_blank"
+            >
               <SocialNames>Linkedin</SocialNames>
               <SocialLikedin />
             </SocialName>
           </SocialLine>
           <SocialLine>
-            <SocialName href="https://api.whatsapp.com/send?phone=5585998629122" target="_blank">
+            <SocialName
+              href="https://api.whatsapp.com/send?phone=5585998629122"
+              target="_blank"
+            >
               <SocialNames>Whatsapp</SocialNames>
               <SocialWhatsapp />
             </SocialName>
-            <SocialName href={PdfCurriculum} target="_blank" rel="noopener noreferrer">
+            <SocialName
+              href={PdfCurriculum}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <SocialNames>Curriculum</SocialNames>
               <SocialCV />
             </SocialName>
           </SocialLine>
-          
         </SocialContainer>
       </Social>
     </Card>
