@@ -31,7 +31,6 @@ const Skillcard = styled.div`
     justify-content: center;
     margin: 11px;
     width: 338px;
-    display: block;
   }
 `;
 const SkillTitle = styled.h1`
@@ -64,7 +63,7 @@ const SKillCaixa = styled.div`
 const SkillAline = styled.div``;
 
 const Social = styled.div`
-  background-color: #ffffff;
+  /* background-color: #ffffff;
   border-radius: 10px;
   margin: 6rem;
   box-shadow: 3 0 black;
@@ -72,10 +71,22 @@ const Social = styled.div`
   width: 356px;
   margin-bottom: 0px;
   /* width: 1000px; */
-  margin-top: 15px;
+  /* margin-top: 15px;
   /* height: 480px; */
-  padding: 10px;
-  display: flex;
+  /* padding: 10px;
+  display: flex;  */
+  ckground-color: #ffffff;
+    border-radius: 10px;
+    margin: 1rem auto 0;
+    box-shadow: 3 0 black;
+    box-shadow: 0 0 1em #cecece;
+     width: 356px; 
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* margin-right: -6px; */
+}
   @media (max-width: 720px) {
     width: 316px;
     align-items: center;
@@ -118,13 +129,11 @@ const SocialCV = styled.img.attrs({ src: Cv })`
   width: 54px;
 `;
 const SocialNames = styled.span`
-  margin-top: 59px;
-
   font-size: 15px;
   color: #c7c3c3;
-  position: absolute;
-  
+  display:flex;
 `;
+const SocialDiv = styled.div``;
 const Skill = () => {
   return (
     <Card>
@@ -168,19 +177,21 @@ const Skill = () => {
         </SkillContainer>
       </Skillcard>
       <Social>
-        <SocialTitle>Social</SocialTitle>
+        <SocialDiv>
+          <SocialTitle>Social</SocialTitle>
+        </SocialDiv>
         <SocialContainer>
           <SocialLine>
             <SocialName href="https://github.com/lcspaiva87" target="_blank">
-              <SocialNames>GitHub</SocialNames>
               <SocialGit />
+              <SocialNames>GitHub</SocialNames>
             </SocialName>
             <SocialName
               href="https://www.linkedin.com/in/lucas-antonio-11a196114/"
               target="_blank"
             >
-              <SocialNames>Linkedin</SocialNames>
               <SocialLikedin />
+              <SocialNames>Linkedin</SocialNames>
             </SocialName>
           </SocialLine>
           <SocialLine>
@@ -188,16 +199,16 @@ const Skill = () => {
               href="https://api.whatsapp.com/send?phone=5585998629122"
               target="_blank"
             >
-              <SocialNames>Whatsapp</SocialNames>
               <SocialWhatsapp />
+              <SocialNames>Whatsapp</SocialNames>
             </SocialName>
             <SocialName
               href={PdfCurriculum}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <SocialNames>Curriculum</SocialNames>
               <SocialCV />
+              <SocialNames>Curriculum</SocialNames>
             </SocialName>
           </SocialLine>
         </SocialContainer>
